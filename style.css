@@ -166,6 +166,70 @@ ul> li > a{
     }
 
 /*--------------------------- style----- of----- section --three----end------------ */
+   
 
+/*--------------------------- style----- of----- section --four----start------------ */
+
+.payment-method{
+
+    width: 600px;
+    height: 400px;
+    margin: auto;
+ 
+    
+    text-align: justify;
+     background-color: rgb(236, 231, 225);
+     padding: 30px;
+}
+
+.payment-method img{
+
+      width: 200px;
+      height: 200px;
+   
+}
+
+.payment{
+     display: flex;
+     justify-content: space-evenly
+}
+
+.payment p{
+
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+/*--------------------------- style----- of----- section --four----start------------ */
 
    
+/* ------------------style --------of  ------------footer ----- start---- */
+
+.footer{
+    margin: auto;
+    
+    width: 95%;
+    height: 200px;
+    background-color: black;
+    color: white
+}         
+
+small{
+    text-align: center;
+    display: block;
+}
+.footer-icon{
+  
+    text-align: center;
+}
+
+#foter-header{
+       top: 40px;
+       position: relative;
+}
+/* ------------------style --------of  ------------footer ----- end---- */
