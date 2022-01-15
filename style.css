@@ -47,13 +47,28 @@ ul> li > a{
 .section-one{
                  display: flex;
                  justify-content: space-between;
-             
-     
-   }
+                 margin-bottom: 20px;
+                }
+  
+
+     .right-site:hover {
+        transform: scale(1.2);
+         
+        background-image: linear-gradient(#ff7b00ec,rgba(236, 28, 70, 0.812) );
+        border-radius: 50%;
+        
+
+    
+    } 
+            
+
+
+
   
     .left-site{
 
-              width: 40%;
+             
+              height: auto;
               
              
     }
@@ -66,18 +81,21 @@ ul> li > a{
 
     .right-site{
 
-          width: 40%;
+          transition: all .5s ease-in-out;
+          height: auto;
           background-image: url(image/Circle\ design.svg);
           background-repeat: no-repeat;
           background-size: cover;
-          margin-top: -30px;
+        
     
     }
+
 
     .right-site img{ 
             
         width: 100%;
         object-fit: fill;
+        height: 100%;
     }
 
    
@@ -173,7 +191,7 @@ ul> li > a{
 .payment-method{
 
     width: 600px;
-    height: 400px;
+    height: auto;
     margin: auto;
  
     
@@ -205,31 +223,134 @@ ul> li > a{
 
 
 
-/*--------------------------- style----- of----- section --four----start------------ */
+/*--------------------------- style----- of----- section --four----end------------ */
 
    
 /* ------------------style --------of  ------------footer ----- start---- */
 
 .footer{
     margin: auto;
+     height: 200px;
+     width: 100%;
     
-    width: 95%;
-    height: 200px;
-    background-color: black;
+  
+    background-color: rgb(30, 33, 43);
     color: white
 }         
 
-small{
-    text-align: center;
-    display: block;
-}
+
 .footer-icon{
   
     text-align: center;
 }
 
 #foter-header{
-       top: 40px;
+         top: 40px;
        position: relative;
 }
 /* ------------------style --------of  ------------footer ----- end---- */
+
+/* ------------------Responsive----------design------------phone------------- satrt------- */
+
+@media only screen and (max-width:767px)
+    
+                     {
+
+            ul{
+
+                display: none;
+             }           
+
+           nav>h1{
+
+             text-align: center;
+           }            
+
+    .section-one{
+
+             flex-direction: column;
+
+
+
+    }
+
+    .logos{
+
+        flex-direction: column;
+    }
+
+    .container{
+
+           grid-template-columns: 1fr;
+    }
+    
+
+    .payment {
+                width: 200px;
+                height: auto;
+                flex-wrap: wrap;
+         
+    }
+
+    .footer{
+        width: 100%;
+}
+    
+}
+
+/* ------Responsive-----design--- phone--- end--- */
+
+/* ------Responsive-----design---tablet--- end--- */
+
+ @media  only screen and (min-width:768px) and (max-width:1023px) {
+
+      nav>h1{
+
+        text-align: center;
+     }
+
+    ul{
+
+        display: none;
+     }  
+
+    .right-site{
+
+
+                width: 40%;
+
+    }
+
+    .left-site{
+
+          width: 40%;
+    }
+
+     .section-one{
+
+                   flex-wrap: wrap;
+
+     }
+
+     .logos{
+
+        flex-wrap: wrap;
+     }
+
+     .container{
+
+        grid-template-columns: 1fr 1fr;
+
+
+ } 
+
+
+ .footer{
+                 width: 100%;
+ }
+
+ }
+
+
+/* ------Responsib-----dizain--- tablet--- end--- */
+
