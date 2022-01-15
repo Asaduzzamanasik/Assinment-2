@@ -1,0 +1,96 @@
+
+   /* -----------fond-----family------- */
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Poppins:wght@400;500&family=Roboto&display=swap');
+
+
+*{
+    margin: 10px;
+}
+
+body{
+    
+     
+      font-family: 'Roboto', sans-serif;
+        
+   }
+
+
+    /*--------------------- navigetion----style-----start--------------- */
+header{
+
+           margin-bottom: 40px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+   
+}
+
+ul >li{
+    margin-right: 15px;
+    list-style: none;
+}
+
+ul> li > a{
+
+    text-decoration: none;
+    color: black;
+}
+
+/* -----------------navigation-----style---------end--------- --------*/
+
+/*--------------------------- style----- of----- section --1----start------------ */
+
+.section-one{
+                 display: flex;
+                 justify-content: space-between;
+     
+   }
+  
+    .left-site{
+
+              width: 40%;
+              
+             
+    }
+
+    .left-site h1{
+
+        font-size: 35px;
+        font-weight: 900;
+    }
+
+    .right-site{
+
+          width: 35%;
+          background-image: url(image/Circle\ design.svg);
+          background-repeat: no-repeat;
+          background-size: cover;
+    
+    }
+
+    .right-site img{ 
+            
+        width: 100%;
+    }
+          /* -----common --------------- button--------------- style-------------- */
+
+          .common-btn{
+
+               background-color:rgba(236, 28, 70, 0.812);
+               padding: 5px 25px;
+               border-radius: 30px;
+               color: white;
+               font-size: 20px;
+               border: none;
+
+              
+              
+              
+          }
+
+
+/*--------------------------- style----- of----- section --1----end------------ */
